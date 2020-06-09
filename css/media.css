@@ -1,0 +1,98 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*banner*/
+	.b-contant h1 {
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
+    font-size: 27px !important;
+}
+.c-hr {
+    width: 159px !important;
+    border: none !important;
+    border-bottom: 3px dashed black !important;
+    margin-bottom: 22px !important;
+}
+.k-text h2 {
+    font-weight: 700;
+    font-size: 24px;
+    /* text-align: center; */
+    padding: 20px 0px;
+}
+/*banner*/
+
+/*kid*/
+.k-img img {
+    border-radius: 15px !important;
+    margin-top: 29px !important;
+}
+
+.k-text img {
+    width: 150px;
+}
+k-img img {
+    margin-top: -52px; 
+}
+/*kidend*/
+/*kid2*/
+.k-contant {
+    margin-bottom: 23px !important;
+}
+/*tweeter*/
+.li-nav {
+    list-style: none;
+    margin: 21px;
+    padding-left: 26px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*kid*/
+.k-text img {
+    width: 150px;
+    margin-bottom: -88px
+}
+.k-img {
+    padding: 0px 69px;
+}
+/*kidend*/
+/*kid2*/
+.k-contant {
+    margin-bottom: 65px !important;
+}
+.k-contant p{
+	font-size: 20px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*bannerstart*/
+.k-img {
+    padding: 59px 0px !important;
+}
+/*bannerend*/
+/*kid*/
+.k-text img{
+    width: 150px;
+}
+/*kidend*/
+/*last*/
+.last_h11 {
+    font-weight: 700;
+    font-size: 27px;
+    color: #ffc852;
+}
+/*last*/
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
